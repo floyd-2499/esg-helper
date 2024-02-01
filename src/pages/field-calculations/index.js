@@ -83,7 +83,7 @@ const FieldCalculations = () => {
             setFinalizedJson(inputJson)
             findUniques()
         }
-    }, [inputJson, setFinalizedJson])
+    }, [])
 
     const convertJSONToExcel = () => {
         const workbook = new ExcelJS.Workbook();
