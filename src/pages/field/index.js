@@ -108,7 +108,7 @@ const FieldMapper = () => {
                 setChangeSuccess(true)
             }
         }
-    }, [inputJson, setFinalizedJson, validationLoadSuccess, loadSuccess, setChangeSuccess, validations])
+    }, [inputJson, setFinalizedJson, validationLoadSuccess, loadSuccess, setChangeSuccess])
 
     const convertJSONToExcel = () => {
         const workbook = new ExcelJS.Workbook();
